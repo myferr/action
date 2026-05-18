@@ -1,5 +1,5 @@
 {
-  "name": "@use-solace/action",
+  "name": "@myfer/action",
   "version": "0.1.1",
   "description": "TypeScript library for defining and running typesafe cron jobs",
   "main": "dist/index.js",
@@ -15,11 +15,8 @@
     "scheduler",
     "automation"
   ],
-  "author": "Solace <https://github.com/use-solace>",
+  "author": "myfer <contactme.myfer@protonmail.com>",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "zod": "^3.23.8"
   },

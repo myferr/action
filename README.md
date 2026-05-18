@@ -1,4 +1,4 @@
-# @use-solace/action
+# @myfer/action
 
 A TypeScript library for defining and running typesafe scheduled actions (cron jobs). Build reliable, type-safe automation with built-in scheduling, logging, and shell command execution.
 
@@ -19,19 +19,19 @@ A TypeScript library for defining and running typesafe scheduled actions (cron j
 
 ```bash
 # bun
-bun add @use-solace/action
+bun add @myfer/action
 # npm
-npm install @use-solace/action
+npm install @myfer/action
 # yarn
-yarn add @use-solace/action
+yarn add @myfer/action
 # pnpm
-pnpm add @use-solace/action
+pnpm add @myfer/action
 ```
 
 ## Quick Start
 
 ```typescript
-import { define } from "@use-solace/action";
+import { define } from "@myfer/action";
 
 const actions = define([
   {
@@ -226,7 +226,7 @@ if (result.exitCode === 0) {
 ### Basic Scheduled Action
 
 ```typescript
-import { define } from "@use-solace/action";
+import { define } from "@myfer/action";
 
 const actions = define([
   {
@@ -435,7 +435,7 @@ import {
   define,
   type ActionDefinition,
   type ActionContext,
-} from "@use-solace/action";
+} from "@myfer/action";
 
 const myAction: ActionDefinition = {
   name: "typed-action",
